@@ -104,6 +104,10 @@
             TargetButton.BackColor = Color.Transparent;
             TargetButton.BackgroundImage = Properties.Resources.target;
             TargetButton.BackgroundImageLayout = ImageLayout.Zoom;
+            TargetButton.FlatAppearance.BorderSize = 0;
+            TargetButton.FlatAppearance.CheckedBackColor = Color.Transparent;
+            TargetButton.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            TargetButton.FlatAppearance.MouseOverBackColor = Color.Transparent;
             TargetButton.FlatStyle = FlatStyle.Flat;
             TargetButton.Location = new Point(15, 22);
             TargetButton.Margin = new Padding(6, 7, 6, 7);
@@ -144,6 +148,10 @@
             FalseTarget.BackColor = Color.Transparent;
             FalseTarget.BackgroundImage = (Image)resources.GetObject("FalseTarget.BackgroundImage");
             FalseTarget.BackgroundImageLayout = ImageLayout.Zoom;
+            FalseTarget.FlatAppearance.BorderSize = 0;
+            FalseTarget.FlatAppearance.CheckedBackColor = Color.Transparent;
+            FalseTarget.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            FalseTarget.FlatAppearance.MouseOverBackColor = Color.Transparent;
             FalseTarget.FlatStyle = FlatStyle.Flat;
             FalseTarget.Location = new Point(105, 22);
             FalseTarget.Margin = new Padding(6, 7, 6, 7);
